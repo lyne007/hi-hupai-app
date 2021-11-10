@@ -1,0 +1,15 @@
+{
+  "component": true,
+  "usingComponents": {
+    "uni-nav-bar": "/components/uni-nav-bar/uni-nav-bar",
+    "qui-header": "/components/qui-header/qui-header",
+    "qui-icon": "/components/qui-icon/qui-icon",
+    "u-tabs": "/components/u-tabs/u-tabs",
+    "qui-uparse": "/components/qui-uparse/qui-uparse",
+    "qui-content": "/components/qui-content/qui-content",
+    "qui-load-more": "/components/qui-load-more/qui-load-more",
+    "qui-filter-modal": "/components/qui-filter-modal/qui-filter-modal",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "qui-toast": "/components/qui-toast/qui-toast"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "通知",
+  "usingComponents": {
+    "qui-page": "/components/qui-page/qui-page",
+    "qui-notification": "/components/qui-notification/qui-notification",
+    "qui-load-more": "/components/qui-load-more/qui-load-more",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "uni-popup-dialog": "/components/uni-popup/uni-popup-dialog"
+  }
+}

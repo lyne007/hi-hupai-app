@@ -1,0 +1,107 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/modify/rightdetails",
+    "pages/topic/content",
+    "pages/topic/position",
+    "pages/topic/list",
+    "pages/topic/topic",
+    "pages/topic/parse-goods",
+    "pages/topic/attachment",
+    "pages/user/phone-login",
+    "pages/user/phone-login-register",
+    "pages/user/uc-login",
+    "pages/user/wechat",
+    "pages/user/pc-login",
+    "pages/user/pc-relation",
+    "pages/user/login-bind",
+    "pages/user/login-bind-phone",
+    "pages/user/register-bind",
+    "pages/user/register-bind-phone",
+    "pages/user/login",
+    "pages/user/register",
+    "pages/topic/comment",
+    "pages/my/profile",
+    "pages/my/wallet",
+    "pages/my/freeze",
+    "pages/my/withdrawalslist",
+    "pages/my/walletlist",
+    "pages/my/orderlist",
+    "pages/my/favorite",
+    "pages/my/shield",
+    "pages/profile/index",
+    "pages/site/index",
+    "pages/site/info",
+    "pages/site/payH5",
+    "pages/site/partner-invite",
+    "pages/site/search",
+    "pages/site/search-theme",
+    "pages/site/search-user",
+    "pages/invite/index",
+    "pages/invite/invited",
+    "pages/invite/income",
+    "pages/invite/user",
+    "pages/notice/notice",
+    "pages/notice/msglist",
+    "pages/manage/index",
+    "pages/manage/member",
+    "pages/manage/users",
+    "pages/manage/invite",
+    "pages/user/at-member",
+    "pages/common/message",
+    "pages/common/error",
+    "pages/share/topic",
+    "pages/share/site",
+    "pages/modify/editusername",
+    "pages/modify/mobile",
+    "pages/modify/setphon",
+    "pages/modify/paypwd",
+    "pages/modify/editpwd",
+    "pages/modify/realname",
+    "pages/modify/signature",
+    "pages/modify/newpwd",
+    "pages/modify/findpwd",
+    "pages/modify/authen",
+    "pages/common/view",
+    "pages/modify/right",
+    "pages/modify/withdrawals"
+  ],
+  "subPackages": [
+    {
+      "root": "topic",
+      "pages": [
+        "post",
+        "index"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#F8F8F8"
+  },
+  "preloadRule": {
+    "topic/post": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    },
+    "topic/index": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    }
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "小程序将使用定位功能"
+    }
+  },
+  "usingComponents": {
+    "painter": "/wxcomponents/painter/painter"
+  },
+  "sitemapLocation": "sitemap.json"
+}

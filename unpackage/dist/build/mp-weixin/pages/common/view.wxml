@@ -1,0 +1,1 @@
+<view><qui-page vue-id="46ba25b4-1" bind:__l="__l" vue-slots="{{['default']}}"><web-view webview-styles="{{webviewStyles}}" src="{{url}}"></web-view></qui-page></view>

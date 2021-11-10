@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "qui-button": "/components/qui-button/qui-button"
+  }
+}

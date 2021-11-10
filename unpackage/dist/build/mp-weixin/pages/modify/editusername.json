@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "修改用户名",
+  "usingComponents": {
+    "qui-page": "/components/qui-page/qui-page",
+    "qui-button": "/components/qui-button/qui-button"
+  }
+}

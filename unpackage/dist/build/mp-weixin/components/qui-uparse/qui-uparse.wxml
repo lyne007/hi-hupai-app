@@ -1,0 +1,1 @@
+<view><u-parse vue-id="0fce2982-1" content="{{$root.f0}}" content-parse="{{contentParse}}" data-event-opts="{{[['^navigate',[['navigate']]]]}}" bind:navigate="__e" bind:__l="__l"></u-parse></view>

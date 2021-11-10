@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "uni-popup-pullscreen": "/components/uni-popup/uni-popup-pullscreen"
+  }
+}

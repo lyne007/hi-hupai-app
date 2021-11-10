@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "站点信息",
+  "usingComponents": {
+    "qui-page": "/components/qui-page/qui-page",
+    "qui-header": "/components/qui-header/qui-header",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "qui-share": "/components/qui-share/qui-share",
+    "qui-cell-item": "/components/qui-cell-item/qui-cell-item",
+    "qui-avatar": "/components/qui-avatar/qui-avatar"
+  }
+}

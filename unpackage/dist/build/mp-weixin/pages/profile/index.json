@@ -1,0 +1,18 @@
+{
+  "navigationBarTitleText": "个人主页",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 80,
+  "usingComponents": {
+    "qui-page": "/components/qui-page/qui-page",
+    "qui-avatar": "/components/qui-avatar/qui-avatar",
+    "qui-cell-item": "/components/qui-cell-item/qui-cell-item",
+    "qui-icon": "/components/qui-icon/qui-icon",
+    "qui-tabs": "/components/qui-tabs/qui-tabs",
+    "qui-page-message": "/components/qui-page-message/qui-page-message",
+    "topic": "/pages/profile/topic",
+    "following": "/pages/profile/following",
+    "followers": "/pages/profile/followers",
+    "like": "/pages/profile/like",
+    "question": "/pages/profile/question"
+  }
+}

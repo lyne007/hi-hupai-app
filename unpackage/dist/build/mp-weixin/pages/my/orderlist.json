@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "订单明细",
+  "usingComponents": {
+    "qui-page": "/components/qui-page/qui-page",
+    "qui-cell-item": "/components/qui-cell-item/qui-cell-item",
+    "qui-icon": "/components/qui-icon/qui-icon",
+    "qui-filter-modal": "/components/qui-filter-modal/qui-filter-modal",
+    "qui-load-more": "/components/qui-load-more/qui-load-more"
+  }
+}

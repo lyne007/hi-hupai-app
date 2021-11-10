@@ -1,0 +1,235 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* eg:
+  .container {
+    color: --color(BG-1);
+  }
+*/
+.home {
+  min-height: 100vh;
+  color: var(--qui-FC-333);
+  background-color: var(--qui-BG-1);
+}
+.status-bar {
+  position: fixed;
+  z-index: 2;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+.nav {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  overflow: hidden;
+  background: var(--qui-BG-2);
+  border-bottom: 2rpx solid var(--qui-BOR-ED);
+  transition: box-shadow 0.2s, -webkit-transform 0.2s;
+}
+.nav__box {
+  position: absolute;
+  right: 0;
+  z-index: 2;
+  display: block;
+  float: right;
+  width: 80rpx;
+  height: 97rpx;
+  background: var(--qui-BG-2);
+}
+.nav__box__icon {
+  margin-left: 24rpx;
+  line-height: 100rpx;
+}
+.scrolled .nav {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.filter-modal .filter-modal__content {
+  max-height: 500rpx;
+}
+.sticky {
+  border-top: 2rpx solid var(--qui-BOR-ED);
+  border-bottom: 2rpx solid var(--qui-BOR-ED);
+}
+.sticky__box {
+  background: var(--qui-BG-2);
+}
+.sticky__isSticky {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  width: 710rpx;
+  height: 80rpx;
+  margin-left: 30rpx;
+  font-size: 28rpx;
+  line-height: 80rpx;
+  background: var(--qui-BG-2);
+  border-bottom: 2rpx solid var(--qui-BOR-ED);
+}
+.sticky__isSticky__box {
+  width: 62rpx;
+  height: 35rpx;
+  margin-top: 27rpx;
+  font-size: 22rpx;
+  line-height: 35rpx;
+  color: var(--qui-FC-777);
+  text-align: center;
+  background: var(--qui-BG-777);
+  border-radius: 6rpx;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.sticky__isSticky__count {
+  width: 572rpx;
+  height: 100%;
+  margin-top: 27rpx;
+  margin-left: 21rpx;
+  overflow: hidden;
+  line-height: 35rpx;
+  color: var(--qui-FC-333);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.sticky__isSticky__count__text {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.sticky__isSticky:last-child {
+  border-bottom: none;
+}
+.horizonal-tab .active {
+  color: var(--qui-BG-HIGH-LIGHT);
+}
+.scroll-tab {
+  z-index: 100;
+  height: 100rpx;
+  white-space: nowrap;
+  border-bottom: 2rpx solid var(--qui-BOR-EEE);
+}
+.scroll-tab-item {
+  z-index: 1;
+  display: inline-block;
+  margin: 20rpx 30rpx;
+  font-size: 28rpx;
+  line-height: 77rpx;
+  color: var(--qui-FC-777);
+}
+.active .scroll-tab-line {
+  color: var(--qui-BG-HIGH-LIGHT);
+  border-bottom: 4rpx solid var(--qui-BG-HIGH-LIGHT);
+}
+.uni-tab-bar .active {
+  font-size: 30rpx;
+  font-weight: bold;
+  color: var(--qui-BG-HIGH-LIGHT);
+}
+.main {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 160rpx;
+  background: var(--qui-BG-1);
+}
+.nav .filter-modal {
+  position: absolute;
+  z-index: 1000;
+  width: 100%;
+}
+.sticky__isSticky__text {
+  display: inline-block;
+  width: 100%;
+  height: 35rpx;
+  overflow: hidden;
+  line-height: 35rpx;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  white-space: nowrap;
+}
+.record {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  height: 40rpx;
+  margin-top: -160rpx;
+  font-size: 28rpx;
+  color: var(--qui-FC-B2);
+  text-align: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.record__box-url {
+  font-size: 28rpx;
+  color: var(--qui-BG-HIGH-LIGHT);
+}
+.record__box1 {
+  margin-left: 20rpx;
+  line-height: 40rpx;
+}
+.record__box1-url {
+  font-size: 28rpx;
+  color: var(--qui-BG-HIGH-LIGHT);
+}
+.record__box2 {
+  line-height: 40rpx;
+}
+.record__box2-url {
+  font-size: 28rpx;
+  color: var(--qui-BG-HIGH-LIGHT);
+}
+.record ._a {
+  color: var(--qui-FC-B2);
+  text-decoration: none;
+}
+.copyright {
+  width: 100%;
+  height: 40rpx;
+  font-size: 28rpx;
+  color: var(--qui-FC-B2);
+  text-align: center;
+}
+.wxcopyright {
+  margin-top: -160rpx;
+  font-size: 28rpx;
+  color: var(--qui-FC-B2);
+  text-align: center;
+}
+.copyright_margin {
+  margin-top: -160rpx;
+}
+

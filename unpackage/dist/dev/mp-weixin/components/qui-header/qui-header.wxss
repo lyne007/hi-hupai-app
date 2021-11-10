@@ -1,0 +1,125 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* eg:
+  .container {
+    color: --color(BG-1);
+  }
+*/
+.header {
+  position: relative;
+  width: 100%;
+  height: 400rpx;
+  background-size: cover;
+}
+.header .logo {
+  display: block;
+  max-height: 88rpx;
+  padding-top: 159rpx;
+  margin: 0 auto;
+}
+.header .qui-back {
+  background: transparent;
+}
+.header .circleDet {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  padding: 69rpx 30rpx 47rpx;
+  line-height: 37rpx;
+  text-align: center;
+}
+.header .circleDet text {
+  line-height: 37rpx;
+  text-align: center;
+}
+.header .circleDet-txt {
+  font-size: 28rpx;
+  color: var(--qui-FC-FFF);
+  opacity: 0.5;
+}
+.header .circleDet-num {
+  padding-left: 15rpx;
+  font-size: 30rpx;
+  color: var(--qui-FC-FFF);
+}
+.header .circleDet-share {
+  font-size: 28rpx;
+  color: var(--qui-FC-FFF);
+}
+.header .qui-icon {
+  padding-right: 18rpx;
+}
+.header .bar-sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 101;
+}
+.header .mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 17;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+.header .wxShareTip {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2222222222222;
+  width: 100%;
+  height: 100%;
+  text-align: right;
+}
+.header .wxShareTip .sharePoint {
+  display: inline-block;
+  width: 70%;
+  margin-top: 10rpx;
+  margin-right: 30rpx;
+}
+.header .wxShareTip .shareKnow {
+  display: block;
+  width: 35%;
+  margin: 20vh auto 30rpx;
+}
+.header-h5 {
+  height: 256rpx;
+  background-size: cover;
+}
+.header-h5 .logo {
+  max-height: 74rpx;
+  padding-top: 58rpx;
+}
+.header-h5 .circleDet {
+  padding: 49rpx 20rpx 47rpx;
+}
+

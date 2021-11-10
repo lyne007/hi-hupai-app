@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "注册并绑定微信号",
+  "usingComponents": {
+    "qui-page": "/components/qui-page/qui-page",
+    "qui-registration-agreement": "/components/qui-registration-agreement/qui-registration-agreement"
+  }
+}

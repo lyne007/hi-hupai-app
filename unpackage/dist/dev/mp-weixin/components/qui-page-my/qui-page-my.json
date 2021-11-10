@@ -1,0 +1,13 @@
+{
+  "component": true,
+  "usingComponents": {
+    "uni-nav-bar": "/components/uni-nav-bar/uni-nav-bar",
+    "qui-avatar": "/components/qui-avatar/qui-avatar",
+    "qui-cell-item": "/components/qui-cell-item/qui-cell-item",
+    "qui-tabs": "/components/qui-tabs/qui-tabs",
+    "u-switch": "/components/u-switch/u-switch",
+    "qui-button": "/components/qui-button/qui-button",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "uni-popup-dialog": "/components/uni-popup/uni-popup-dialog"
+  }
+}

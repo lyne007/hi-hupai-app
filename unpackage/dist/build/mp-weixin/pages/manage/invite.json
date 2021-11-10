@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "邀请成员",
+  "usingComponents": {
+    "qui-page": "/components/qui-page/qui-page",
+    "qui-tabs": "/components/qui-tabs/qui-tabs",
+    "qui-load-more": "/components/qui-load-more/qui-load-more",
+    "qui-no-data": "/components/qui-no-data/qui-no-data",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "qui-icon": "/components/qui-icon/qui-icon",
+    "qui-invite": "/components/qui-invite/index"
+  }
+}

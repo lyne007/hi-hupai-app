@@ -1,0 +1,1 @@
+.site-users-wx-search .search{position:fixed;top:0rpx;z-index:99;width:100%}.site-users-wx-search .search-box{height:135rpx;background-color:var(--qui-BG-2);-webkit-box-sizing:border-box;box-sizing:border-box}.site-users-wx-box{position:fixed;top:135rpx;right:0rpx;bottom:0rpx;left:0rpx}.site-users-wx-box-list{background:var(--qui-BG-2)}

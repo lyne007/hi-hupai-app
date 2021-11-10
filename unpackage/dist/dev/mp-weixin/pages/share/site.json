@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "分享海报",
+  "usingComponents": {
+    "qui-page": "/components/qui-page/qui-page",
+    "qui-button": "/components/qui-button/qui-button"
+  }
+}

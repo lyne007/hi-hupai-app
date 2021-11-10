@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "站点信息",
+  "usingComponents": {
+    "qui-page": "/components/qui-page/qui-page"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "qui-page": "/components/qui-page/qui-page",
+    "qui-topic-content": "/components/qui-topic-content/qui-topic-content",
+    "qui-icon": "/components/qui-icon/qui-icon",
+    "qui-person-list": "/components/qui-person-list/qui-person-list",
+    "qui-be-ask": "/components/qui-be-ask/qui-be-ask",
+    "qui-answer": "/components/qui-answer/qui-answer",
+    "qui-payment-visible": "/components/qui-payment-visible/qui-payment-visible",
+    "qui-drop-down": "/components/qui-drop-down/qui-drop-down",
+    "qui-topic-comment": "/components/qui-topic-comment/qui-topic-comment",
+    "qui-load-more": "/components/qui-load-more/qui-load-more",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "qui-button": "/components/qui-button/qui-button",
+    "qui-report": "/components/qui-report/qui-report",
+    "qui-pay": "/components/qui-pay/qui-pay",
+    "qui-loading-cover": "/components/qui-loading-cover/qui-loading-cover",
+    "qui-toast": "/components/qui-toast/qui-toast",
+    "qui-emoji": "/components/qui-emoji/qui-emoji",
+    "qui-uploader": "/components/qui-uploader/qui-uploader",
+    "u-loading": "/components/u-loading/u-loading",
+    "qui-page-message": "/components/qui-page-message/qui-page-message",
+    "uni-popup-dialog": "/components/uni-popup/uni-popup-dialog"
+  }
+}

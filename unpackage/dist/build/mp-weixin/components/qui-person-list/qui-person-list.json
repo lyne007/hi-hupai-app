@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "qui-avatar": "/components/qui-avatar/qui-avatar",
+    "qui-icon": "/components/qui-icon/qui-icon"
+  }
+}

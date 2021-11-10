@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "qui-no-data": "/components/qui-no-data/qui-no-data",
+    "qui-avatar": "/components/qui-avatar/qui-avatar",
+    "qui-icon": "/components/qui-icon/qui-icon"
+  }
+}

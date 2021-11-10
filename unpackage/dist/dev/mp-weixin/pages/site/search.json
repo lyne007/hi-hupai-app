@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "搜索",
+  "usingComponents": {
+    "qui-page": "/components/qui-page/qui-page",
+    "qui-icon": "/components/qui-icon/qui-icon",
+    "qui-avatar": "/components/qui-avatar/qui-avatar",
+    "qui-cell-item": "/components/qui-cell-item/qui-cell-item",
+    "qui-no-data": "/components/qui-no-data/qui-no-data",
+    "qui-thread-item": "/components/qui-thread-item/qui-thread-item"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTitleText": "404",
+  "disableScroll": true,
+  "usingComponents": {
+    "qui-button": "/components/qui-button/qui-button"
+  }
+}

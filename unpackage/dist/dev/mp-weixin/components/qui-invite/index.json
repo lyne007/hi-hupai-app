@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "qui-cell-item": "/components/qui-cell-item/qui-cell-item",
+    "qui-icon": "/components/qui-icon/qui-icon"
+  }
+}

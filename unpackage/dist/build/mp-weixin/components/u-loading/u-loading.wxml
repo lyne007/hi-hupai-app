@@ -1,0 +1,1 @@
+<block wx:if="{{show}}"><view class="u-loading u-loading-circle data-v-91e9b0d8" style="{{$root.s0}}"></view></block>

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "qui-page": "/components/qui-page/qui-page"
+  }
+}

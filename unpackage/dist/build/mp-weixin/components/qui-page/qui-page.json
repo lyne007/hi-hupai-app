@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "u-loading": "/components/u-loading/u-loading",
+    "qui-page-message": "/components/qui-page-message/qui-page-message",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "qui-auth": "/components/qui-auth/qui-auth"
+  }
+}

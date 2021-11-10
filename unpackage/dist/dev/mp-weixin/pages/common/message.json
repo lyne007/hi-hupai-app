@@ -1,0 +1,9 @@
+{
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTitleText": "信息提示",
+  "disableScroll": true,
+  "usingComponents": {
+    "qui-page": "/components/qui-page/qui-page",
+    "qui-page-message": "/components/qui-page-message/qui-page-message"
+  }
+}

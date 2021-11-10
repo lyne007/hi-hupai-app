@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "成员管理",
+  "usingComponents": {
+    "qui-page": "/components/qui-page/qui-page",
+    "qui-icon": "/components/qui-icon/qui-icon",
+    "qui-avatar-cell": "/components/qui-avatar-cell/qui-avatar-cell",
+    "qui-load-more": "/components/qui-load-more/qui-load-more",
+    "qui-button": "/components/qui-button/qui-button",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}

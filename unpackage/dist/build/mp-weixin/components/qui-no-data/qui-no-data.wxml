@@ -1,0 +1,1 @@
+<view class="no-data data-v-3a78e28d"><view class="no-data__body data-v-3a78e28d"><qui-icon vue-id="45bddb64-1" name="{{iconName}}" color="#aaa" size="25" class="data-v-3a78e28d" bind:__l="__l"></qui-icon><text class="tips data-v-3a78e28d">{{tips||$root.g0}}</text></view></view>

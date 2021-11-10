@@ -1,0 +1,16 @@
+{
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle": "dark",
+  "onReachBottomDistance": 100,
+  "usingComponents": {
+    "qui-page": "/components/qui-page/qui-page",
+    "qui-footer": "/components/qui-footer/qui-footer",
+    "qui-page-home": "/components/qui-page-home/qui-page-home",
+    "qui-page-find": "/components/qui-page-find/qui-page-find",
+    "qui-page-notice": "/components/qui-page-notice/qui-page-notice",
+    "qui-page-my": "/components/qui-page-my/qui-page-my",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "qui-auth": "/components/qui-auth/qui-auth"
+  }
+}

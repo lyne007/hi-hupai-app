@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "话题列表",
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTextStyle": "black",
+  "navigationStyle": "default",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "qui-page": "/components/qui-page/qui-page",
+    "qui-icon": "/components/qui-icon/qui-icon",
+    "qui-uparse": "/components/qui-uparse/qui-uparse",
+    "qui-image": "/components/qui-image/qui-image",
+    "qui-load-more": "/components/qui-load-more/qui-load-more"
+  }
+}

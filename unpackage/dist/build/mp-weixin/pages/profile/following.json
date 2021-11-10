@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "qui-avatar": "/components/qui-avatar/qui-avatar",
+    "qui-cell-item": "/components/qui-cell-item/qui-cell-item",
+    "qui-icon": "/components/qui-icon/qui-icon",
+    "qui-load-more": "/components/qui-load-more/qui-load-more"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "component": true,
+  "usingComponents": {
+    "qui-avatar": "/components/qui-avatar/qui-avatar",
+    "qui-uparse": "/components/qui-uparse/qui-uparse",
+    "qui-audio-cell": "/components/qui-audio-cell/qui-audio-cell",
+    "qui-image": "/components/qui-image/qui-image",
+    "qui-audio": "/components/qui-audio/qui-audio",
+    "qui-icon": "/components/qui-icon/qui-icon",
+    "qui-video": "/components/qui-video/qui-video",
+    "qui-toast": "/components/qui-toast/qui-toast"
+  }
+}

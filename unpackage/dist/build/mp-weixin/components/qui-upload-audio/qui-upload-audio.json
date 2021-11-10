@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "qui-audio-cell": "/components/qui-audio-cell/qui-audio-cell",
+    "qui-icon": "/components/qui-icon/qui-icon",
+    "qui-toast": "/components/qui-toast/qui-toast",
+    "qui-loading": "/components/qui-loading/qui-loading"
+  }
+}

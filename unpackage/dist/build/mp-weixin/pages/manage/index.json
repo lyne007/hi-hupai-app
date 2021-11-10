@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "站点管理",
+  "usingComponents": {
+    "qui-page": "/components/qui-page/qui-page",
+    "qui-cell-item": "/components/qui-cell-item/qui-cell-item"
+  }
+}

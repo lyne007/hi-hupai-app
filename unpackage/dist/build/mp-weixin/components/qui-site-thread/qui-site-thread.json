@@ -1,0 +1,11 @@
+{
+  "component": true,
+  "usingComponents": {
+    "qui-header": "/components/qui-header/qui-header",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "qui-share": "/components/qui-share/qui-share",
+    "qui-avatar": "/components/qui-avatar/qui-avatar",
+    "qui-thread-item": "/components/qui-thread-item/qui-thread-item",
+    "qui-toast": "/components/qui-toast/qui-toast"
+  }
+}

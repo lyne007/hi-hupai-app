@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "来往记录",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "qui-page": "/components/qui-page/qui-page",
+    "qui-avatar": "/components/qui-avatar/qui-avatar",
+    "qui-uparse": "/components/qui-uparse/qui-uparse",
+    "qui-icon": "/components/qui-icon/qui-icon",
+    "qui-emoji": "/components/qui-emoji/qui-emoji"
+  }
+}

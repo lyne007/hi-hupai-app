@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "注册",
+  "usingComponents": {
+    "qui-page": "/components/qui-page/qui-page",
+    "qui-registration-agreement": "/components/qui-registration-agreement/qui-registration-agreement"
+  }
+}

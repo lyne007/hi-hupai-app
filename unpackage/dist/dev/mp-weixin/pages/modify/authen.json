@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "验证身份",
+  "usingComponents": {
+    "qui-page": "/components/qui-page/qui-page",
+    "qui-input-code": "/components/qui-input-code/qui-input-code"
+  }
+}

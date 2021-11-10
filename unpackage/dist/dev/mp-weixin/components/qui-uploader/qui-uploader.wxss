@@ -1,0 +1,159 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* eg:
+  .container {
+    color: --color(BG-1);
+  }
+*/
+.qui-uploader-box.data-v-992d4578 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 13rpx;
+  width: 100%;
+  min-height: 160rpx;
+  padding-top: 30rpx;
+}
+.qui-uploader-box__uploader-file.data-v-992d4578 {
+  position: relative;
+  width: 100%;
+  height: calc((100vw - 80rpx) / 3);
+  box-sizing: border-box;
+}
+.qui-uploader-box__uploader-file__box.data-v-992d4578 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 10rpx;
+}
+.qui-uploader-box__uploader-file--image.data-v-992d4578 {
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid var(--qui-BOR-ED);
+  border-radius: 5rpx;
+}
+.qui-uploader-box__uploader-file--load.data-v-992d4578 {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border: 1px solid var(--qui-BOR-ED);
+  border-radius: 5rpx;
+}
+.qui-uploader-box__uploader-file--load__mask.data-v-992d4578 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--qui-BG-ED);
+  border: 1px solid var(--qui-BOR-ED);
+  border-radius: 5rpx;
+  opacity: 0.7;
+}
+.qui-uploader-box__uploader-file--load__text.data-v-992d4578 {
+  position: relative;
+  z-index: 2;
+  font-size: 30rpx;
+  line-height: 160rpx;
+  color: var(--qui-FC-34);
+}
+.qui-uploader-box__uploader-file--load progress.data-v-992d4578 {
+  position: absolute;
+  bottom: 9.5rpx;
+  z-index: 3;
+  width: 87.5%;
+}
+.qui-uploader-box__uploader-file__del.data-v-992d4578 {
+  position: absolute;
+  bottom: 0;
+  left: 1px;
+  z-index: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 100%;
+  height: 30rpx;
+  background: var(--qui-BG-00);
+  border-radius: 0 0 5rpx 5rpx;
+  opacity: 0.5;
+}
+.qui-uploader-box__uploader-file__del .icon-delete.data-v-992d4578 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  height: 100%;
+}
+.qui-uploader-box__add.data-v-992d4578 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  width: 100%;
+  height: calc((100vw - 80rpx) / 3);
+  background-color: var(--qui-FC-f7);
+  border: 1px solid var(--qui-BOR-ED);
+  border-radius: 5rpx;
+}
+.van-uploader__input.data-v-992d4578 {
+  width: 200rpx;
+  height: 200rpx;
+  background: burlywood;
+}
+

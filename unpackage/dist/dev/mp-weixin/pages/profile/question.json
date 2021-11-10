@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "qui-thread-item": "/components/qui-thread-item/qui-thread-item",
+    "qui-load-more": "/components/qui-load-more/qui-load-more"
+  }
+}

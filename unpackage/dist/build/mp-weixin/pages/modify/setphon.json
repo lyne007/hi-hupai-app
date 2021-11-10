@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "设置新手机",
+  "usingComponents": {
+    "qui-page": "/components/qui-page/qui-page",
+    "qui-input-code": "/components/qui-input-code/qui-input-code",
+    "qui-button": "/components/qui-button/qui-button"
+  }
+}

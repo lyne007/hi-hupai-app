@@ -1,0 +1,1 @@
+<qui-page vue-id="65a7416a-1" data-qui-theme="{{theme}}" bind:__l="__l" vue-slots="{{['default']}}"><qui-page-message vue-id="{{('65a7416a-2')+','+('65a7416a-1')}}" type="{{status}}" bind:__l="__l"></qui-page-message></qui-page>

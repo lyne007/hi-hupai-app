@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "",
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTextStyle": "black",
+  "navigationStyle": "default",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "qui-page": "/components/qui-page/qui-page",
+    "qui-page-message": "/components/qui-page-message/qui-page-message",
+    "qui-icon": "/components/qui-icon/qui-icon",
+    "qui-thread-item": "/components/qui-thread-item/qui-thread-item",
+    "qui-load-more": "/components/qui-load-more/qui-load-more"
+  }
+}

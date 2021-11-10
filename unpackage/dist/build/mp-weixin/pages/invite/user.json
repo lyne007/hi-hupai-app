@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "用户收益",
+  "usingComponents": {
+    "qui-page": "/components/qui-page/qui-page",
+    "qui-avatar": "/components/qui-avatar/qui-avatar",
+    "qui-cell-item": "/components/qui-cell-item/qui-cell-item",
+    "qui-load-more": "/components/qui-load-more/qui-load-more"
+  }
+}

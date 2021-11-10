@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "qui-content": "/components/qui-content/qui-content",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "qui-share": "/components/qui-share/qui-share"
+  }
+}

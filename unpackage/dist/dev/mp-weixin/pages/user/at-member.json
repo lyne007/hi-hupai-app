@@ -1,0 +1,11 @@
+{
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "qui-page": "/components/qui-page/qui-page",
+    "qui-icon": "/components/qui-icon/qui-icon",
+    "qui-avatar-cell": "/components/qui-avatar-cell/qui-avatar-cell",
+    "qui-button": "/components/qui-button/qui-button"
+  }
+}

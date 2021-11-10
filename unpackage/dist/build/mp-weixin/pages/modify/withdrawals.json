@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "提现",
+  "usingComponents": {
+    "qui-page": "/components/qui-page/qui-page",
+    "qui-cell-item": "/components/qui-cell-item/qui-cell-item",
+    "qui-input-code": "/components/qui-input-code/qui-input-code",
+    "qui-button": "/components/qui-button/qui-button",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "qui-auth-phone": "/components/qui-auth-phone/qui-auth-phone"
+  }
+}
